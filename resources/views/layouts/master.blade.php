@@ -10,6 +10,10 @@
 
         @include('partials.master.header')
 
+        <div class="alert alert-warning text-center">
+            </strong>Warning!</strong> This site just for demo!
+        </div>
+
         @include('flash::message')
 
         <div class="mt-5">

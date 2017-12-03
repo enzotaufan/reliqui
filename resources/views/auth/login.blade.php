@@ -36,12 +36,21 @@
                     </label>
                 </div>  --}}
 
-                <a href="{{ route('password.request') }}"> Forgot Password?</a>
+                {{--  <a href="{{ route('password.request') }}"> Forgot Password?</a>  --}}
             </div>
 
         </div>
 
         <div class="form-group">
+            <div class="alert alert-info">
+                <strong>Credential for demo</strong><p>
+                <strong>Admin</strong>
+                email: enzotufan@gmail.com
+                <strong>pass: secret</strong>
+                <strong>Nurse</strong>
+                email: soleman@gmail.com
+                <strong>pass: secret</strong>
+            </div>
             <button class="btn btn-block btn-danger" type="submit">Sign In</button>
             <p class="text-muted text-center mt-3">-or-</p>
             <a href="#" class="btn btn-block btn-secondary">Sign In with Google <em>(coming soon)</em></a>

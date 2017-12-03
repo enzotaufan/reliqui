@@ -1,4 +1,4 @@
-@extends('layouts.auth')
+{{--  @extends('layouts.auth')
 
 @section('title', 'Reset Kata Sandi')
 
@@ -44,4 +44,4 @@
     </form>
 </div>
 
-@endsection
+@endsection  --}}

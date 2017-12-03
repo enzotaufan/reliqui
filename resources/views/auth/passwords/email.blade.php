@@ -1,4 +1,4 @@
-@extends('layouts.auth')
+{{--  @extends('layouts.auth')
 
 @section('title', 'Reset Kata Sandi')
 
@@ -7,11 +7,11 @@
 <div class="col-md-4 offset-md-4 mt-3">
     <p class="text-center"><strong>Reset Your Password</strong></p><br>
 
-    {{--  @if (session('status'))
+    @if (session('status'))
         <div class="alert alert-success">
             {{ session('status') }}
         </div>
-    @endif  --}}
+    @endif
 
     <form class="form-horizontal" method="POST" action="{{ route('password.email') }}">
         {{ csrf_field() }}
@@ -38,4 +38,4 @@
     </form>
 </div>
 
-@endsection
+@endsection  --}}
